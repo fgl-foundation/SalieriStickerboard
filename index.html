@@ -1,12 +1,332 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <title>Salieri Stickerboard</title>
-<link rel="stylesheet" href="styles/img.css">
+<link rel="stylesheet" href="style.css">
 
 <script>
-    
+    function copyToClipboard(text){
+        var copytext = document.createElement('input')
+        text=text.substring(0,text.lastIndexOf('.'))
+        var codex=":"+text+":";
+        copytext.value = codex;
+        document.body.appendChild(copytext)
+        copytext.select()
+        document.execCommand('copy')
+        document.body.removeChild(copytext)
+        code.innerHTML=codex
+        obj.style.opacity="1"
+        setTimeout(function(){obj.style.opacity="0"},700)
+    }
 </script>
 
 <body>
-<img src="src\fb.png"><img src="src\lain.png"><img src="src\lenins;gate.png"><img src="src\vzlom;jopi.png"><img src="src\а_давай.png"><img src="src\а_по_жопе.png"><img src="src\ага_сука.png"><img src="src\ахуеть.png"><img src="src\балдеж.png"><img src="src\бан.png"><img src="src\взлом_жепы.png"><img src="src\взлом_залупы.png"><img src="src\взлом_упы.png"><img src="src\всем_похуй.png"><img src="src\готовь_ебальник.png"><img src="src\даже_маюши.png"><img src="src\делет.png"><img src="src\еще.png"><img src="src\каво.png"><img src="src\кубеки.png"><img src="src\кулстори_сука.png"><img src="src\лески_респект.png"><img src="src\леспект.png"><img src="src\нейтрально.png"><img src="src\неп.png"><img src="src\несправедливо.png"><img src="src\олд.png"><img src="src\олд_2д.png"><img src="src\отвал.png"><img src="src\пивас_кончился.png"><img src="src\пиздец_сука.png"><img src="src\пиздос.png"><img src="src\пошёл_против.png"><img src="src\прикалываешься.png"><img src="src\рицу_лавки.png"><img src="src\с_др.png"><img src="src\тепловоз_димаса.png"><img src="src\тока_аутизм.png"><img src="src\ты_пидор.png"><img src="src\уткин.png"><img src="src\уткин_тут.png"><img src="src\ух_сука.png"><img src="src\ух_сука_бля.png"><img src="src\хиеджи.png"><img src="src\хочется.png"><img src="src\хуй).png"><img src="src\хуясе.png"><img src="src\чо_бля.png"><img src="src\чо_не_спишь.png"><img src="src\шутник.png">
-    </body>
+<details open> <summary>Общее </summary>
+<div>
+<img onclick="copyToClipboard('fb.png')" src="src\.\\fb.png">
+<img onclick="copyToClipboard('lain.png')" src="src\.\\lain.png">
+<img onclick="copyToClipboard('lenins;gate.png')" src="src\.\\lenins;gate.png">
+<img onclick="copyToClipboard('vzlom;jopi.png')" src="src\.\\vzlom;jopi.png">
+<img onclick="copyToClipboard('а_давай.png')" src="src\.\\а_давай.png">
+<img onclick="copyToClipboard('а_по_жопе.png')" src="src\.\\а_по_жопе.png">
+<img onclick="copyToClipboard('ага_сука.png')" src="src\.\\ага_сука.png">
+<img onclick="copyToClipboard('ахуеть.png')" src="src\.\\ахуеть.png">
+<img onclick="copyToClipboard('балдеж.png')" src="src\.\\балдеж.png">
+<img onclick="copyToClipboard('бан.png')" src="src\.\\бан.png">
+<img onclick="copyToClipboard('взлом_жепы.png')" src="src\.\\взлом_жепы.png">
+<img onclick="copyToClipboard('взлом_залупы.png')" src="src\.\\взлом_залупы.png">
+<img onclick="copyToClipboard('взлом_упы.png')" src="src\.\\взлом_упы.png">
+<img onclick="copyToClipboard('всем_похуй.png')" src="src\.\\всем_похуй.png">
+<img onclick="copyToClipboard('готовь_ебальник.png')" src="src\.\\готовь_ебальник.png">
+<img onclick="copyToClipboard('даже_маюши.png')" src="src\.\\даже_маюши.png">
+<img onclick="copyToClipboard('делет.png')" src="src\.\\делет.png">
+<img onclick="copyToClipboard('еще.png')" src="src\.\\еще.png">
+<img onclick="copyToClipboard('каво.png')" src="src\.\\каво.png">
+<img onclick="copyToClipboard('кубеки.png')" src="src\.\\кубеки.png">
+<img onclick="copyToClipboard('кулстори_сука.png')" src="src\.\\кулстори_сука.png">
+<img onclick="copyToClipboard('лески_респект.png')" src="src\.\\лески_респект.png">
+<img onclick="copyToClipboard('леспект.png')" src="src\.\\леспект.png">
+<img onclick="copyToClipboard('нейтрально.png')" src="src\.\\нейтрально.png">
+<img onclick="copyToClipboard('неп.png')" src="src\.\\неп.png">
+<img onclick="copyToClipboard('несправедливо.png')" src="src\.\\несправедливо.png">
+<img onclick="copyToClipboard('олд.png')" src="src\.\\олд.png">
+<img onclick="copyToClipboard('олд_2д.png')" src="src\.\\олд_2д.png">
+<img onclick="copyToClipboard('отвал.png')" src="src\.\\отвал.png">
+<img onclick="copyToClipboard('пивас_кончился.png')" src="src\.\\пивас_кончился.png">
+<img onclick="copyToClipboard('пиздец_сука.png')" src="src\.\\пиздец_сука.png">
+<img onclick="copyToClipboard('пиздос.png')" src="src\.\\пиздос.png">
+<img onclick="copyToClipboard('пошёл_против.png')" src="src\.\\пошёл_против.png">
+<img onclick="copyToClipboard('прикалываешься.png')" src="src\.\\прикалываешься.png">
+<img onclick="copyToClipboard('рицу_лавки.png')" src="src\.\\рицу_лавки.png">
+<img onclick="copyToClipboard('с_др.png')" src="src\.\\с_др.png">
+<img onclick="copyToClipboard('тепловоз_димаса.png')" src="src\.\\тепловоз_димаса.png">
+<img onclick="copyToClipboard('тока_аутизм.png')" src="src\.\\тока_аутизм.png">
+<img onclick="copyToClipboard('ты_пидор.png')" src="src\.\\ты_пидор.png">
+<img onclick="copyToClipboard('уткин.png')" src="src\.\\уткин.png">
+<img onclick="copyToClipboard('уткин_тут.png')" src="src\.\\уткин_тут.png">
+<img onclick="copyToClipboard('ух_сука.png')" src="src\.\\ух_сука.png">
+<img onclick="copyToClipboard('ух_сука_бля.png')" src="src\.\\ух_сука_бля.png">
+<img onclick="copyToClipboard('хиеджи.png')" src="src\.\\хиеджи.png">
+<img onclick="copyToClipboard('хочется.png')" src="src\.\\хочется.png">
+<img onclick="copyToClipboard('хуй).png')" src="src\.\\хуй).png">
+<img onclick="copyToClipboard('хуясе.png')" src="src\.\\хуясе.png">
+<img onclick="copyToClipboard('чо_бля.png')" src="src\.\\чо_бля.png">
+<img onclick="copyToClipboard('чо_не_спишь.png')" src="src\.\\чо_не_спишь.png">
+<img onclick="copyToClipboard('шутник.png')" src="src\.\\шутник.png">
+</div>
+</details>
+<details open> <summary>lab </summary>
+<div>
+<img onclick="copyToClipboard('lab.alpacaface.png')" src="src\lab\alpacaface.png">
+<img onclick="copyToClipboard('lab.alpacaman.png')" src="src\lab\alpacaman.png">
+<img onclick="copyToClipboard('lab.babyimhappy.png')" src="src\lab\babyimhappy.png">
+<img onclick="copyToClipboard('lab.baldej.png')" src="src\lab\baldej.png">
+<img onclick="copyToClipboard('lab.chiyo.png')" src="src\lab\chiyo.png">
+<img onclick="copyToClipboard('lab.daru.png')" src="src\lab\daru.png">
+<img onclick="copyToClipboard('lab.daru2.png')" src="src\lab\daru2.png">
+<img onclick="copyToClipboard('lab.deletthis.png')" src="src\lab\deletthis.png">
+<img onclick="copyToClipboard('lab.farisnani.png')" src="src\lab\farisnani.png">
+<img onclick="copyToClipboard('lab.farisururu.png')" src="src\lab\farisururu.png">
+<img onclick="copyToClipboard('lab.fubuwha.png')" src="src\lab\fubuwha.png">
+<img onclick="copyToClipboard('lab.gerogero.png')" src="src\lab\gerogero.png">
+<img onclick="copyToClipboard('lab.hostagenomore.png')" src="src\lab\hostagenomore.png">
+<img onclick="copyToClipboard('lab.kagaricry.png')" src="src\lab\kagaricry.png">
+<img onclick="copyToClipboard('lab.kuri.png')" src="src\lab\kuri.png">
+<img onclick="copyToClipboard('lab.kuriloes.png')" src="src\lab\kuriloes.png">
+<img onclick="copyToClipboard('lab.kuritired.png')" src="src\lab\kuritired.png">
+<img onclick="copyToClipboard('lab.lesky.png')" src="src\lab\lesky.png">
+<img onclick="copyToClipboard('lab.lesky2.png')" src="src\lab\lesky2.png">
+<img onclick="copyToClipboard('lab.leskyhuh.png')" src="src\lab\leskyhuh.png">
+<img onclick="copyToClipboard('lab.leskythinking.png')" src="src\lab\leskythinking.png">
+<img onclick="copyToClipboard('lab.lukaintesifies.png')" src="src\lab\lukaintesifies.png">
+<img onclick="copyToClipboard('lab.maangry.png')" src="src\lab\maangry.png">
+<img onclick="copyToClipboard('lab.mahoangry.png')" src="src\lab\mahoangry.png">
+<img onclick="copyToClipboard('lab.mahoehehe.png')" src="src\lab\mahoehehe.png">
+<img onclick="copyToClipboard('lab.mahofuck.png')" src="src\lab\mahofuck.png">
+<img onclick="copyToClipboard('lab.mahokowai.png')" src="src\lab\mahokowai.png">
+<img onclick="copyToClipboard('lab.mahoping.png')" src="src\lab\mahoping.png">
+<img onclick="copyToClipboard('lab.mahotired.png')" src="src\lab\mahotired.png">
+<img onclick="copyToClipboard('lab.mahoyoba.png')" src="src\lab\mahoyoba.png">
+<img onclick="copyToClipboard('lab.mayoba.png')" src="src\lab\mayoba.png">
+<img onclick="copyToClipboard('lab.maytutturu.png')" src="src\lab\maytutturu.png">
+<img onclick="copyToClipboard('lab.mayuehehe.png')" src="src\lab\mayuehehe.png">
+<img onclick="copyToClipboard('lab.mayufuck.png')" src="src\lab\mayufuck.png">
+<img onclick="copyToClipboard('lab.mayuthink.png')" src="src\lab\mayuthink.png">
+<img onclick="copyToClipboard('lab.moehi.png')" src="src\lab\moehi.png">
+<img onclick="copyToClipboard('lab.noneechan.png')" src="src\lab\noneechan.png">
+<img onclick="copyToClipboard('lab.nonokayf.png')" src="src\lab\nonokayf.png">
+<img onclick="copyToClipboard('lab.okabefacepalm.png')" src="src\lab\okabefacepalm.png">
+<img onclick="copyToClipboard('lab.omedetou.png')" src="src\lab\omedetou.png">
+<img onclick="copyToClipboard('lab.omegamayoba.png')" src="src\lab\omegamayoba.png">
+<img onclick="copyToClipboard('lab.oyasumi.png')" src="src\lab\oyasumi.png">
+<img onclick="copyToClipboard('lab.roflanlesky.png')" src="src\lab\roflanlesky.png">
+<img onclick="copyToClipboard('lab.roflanmayu.png')" src="src\lab\roflanmayu.png">
+<img onclick="copyToClipboard('lab.roflanoka.png')" src="src\lab\roflanoka.png">
+<img onclick="copyToClipboard('lab.sergeantnae.png')" src="src\lab\sergeantnae.png">
+<img onclick="copyToClipboard('lab.serikyaa.png')" src="src\lab\serikyaa.png">
+<img onclick="copyToClipboard('lab.shiningchiyo.png')" src="src\lab\shiningchiyo.png">
+<img onclick="copyToClipboard('lab.suzuf.png')" src="src\lab\suzuf.png">
+<img onclick="copyToClipboard('lab.thuglife.png')" src="src\lab\thuglife.png">
+</div>
+</details>
+<details open> <summary>padoru </summary>
+<div>
+<img onclick="copyToClipboard('padoru.kurisu.png')" src="src\padoru\kurisu.png">
+<img onclick="copyToClipboard('padoru.mayu.png')" src="src\padoru\mayu.png">
+</div>
+</details>
+<details open> <summary>киса </summary>
+<div>
+<img onclick="copyToClipboard('киса.безысходность.png')" src="src\киса\безысходность.png">
+<img onclick="copyToClipboard('киса.валяется.png')" src="src\киса\валяется.png">
+<img onclick="copyToClipboard('киса.вздыхает.png')" src="src\киса\вздыхает.png">
+<img onclick="copyToClipboard('киса.врасплох.png')" src="src\киса\врасплох.png">
+<img onclick="copyToClipboard('киса.голодная.png')" src="src\киса\голодная.png">
+<img onclick="copyToClipboard('киса.горят_глаза.png')" src="src\киса\горят_глаза.png">
+<img onclick="copyToClipboard('киса.гуляет_с_хвостом.png')" src="src\киса\гуляет_с_хвостом.png">
+<img onclick="copyToClipboard('киса.да_ладно.png')" src="src\киса\да_ладно.png">
+<img onclick="copyToClipboard('киса.дарит.png')" src="src\киса\дарит.png">
+<img onclick="copyToClipboard('киса.дует_ветер.png')" src="src\киса\дует_ветер.png">
+<img onclick="copyToClipboard('киса.ест_конфету.png')" src="src\киса\ест_конфету.png">
+<img onclick="copyToClipboard('киса.ест_яичко.png')" src="src\киса\ест_яичко.png">
+<img onclick="copyToClipboard('киса.ждет.png')" src="src\киса\ждет.png">
+<img onclick="copyToClipboard('киса.задумалась.png')" src="src\киса\задумалась.png">
+<img onclick="copyToClipboard('киса.задумалась_профиль.png')" src="src\киса\задумалась_профиль.png">
+<img onclick="copyToClipboard('киса.замерзает.png')" src="src\киса\замерзает.png">
+<img onclick="copyToClipboard('киса.заметила.png')" src="src\киса\заметила.png">
+<img onclick="copyToClipboard('киса.интересная_история.png')" src="src\киса\интересная_история.png">
+<img onclick="copyToClipboard('киса.интересно.png')" src="src\киса\интересно.png">
+<img onclick="copyToClipboard('киса.коробочка.png')" src="src\киса\коробочка.png">
+<img onclick="copyToClipboard('киса.котобус.png')" src="src\киса\котобус.png">
+<img onclick="copyToClipboard('киса.кошка.png')" src="src\киса\кошка.png">
+<img onclick="copyToClipboard('киса.кривляется.png')" src="src\киса\кривляется.png">
+<img onclick="copyToClipboard('киса.лежит.png')" src="src\киса\лежит.png">
+<img onclick="copyToClipboard('киса.мечтает.png')" src="src\киса\мечтает.png">
+<img onclick="copyToClipboard('киса.надулась.png')" src="src\киса\надулась.png">
+<img onclick="copyToClipboard('киса.не_понимает.png')" src="src\киса\не_понимает.png">
+<img onclick="copyToClipboard('киса.немного_разочарована.png')" src="src\киса\немного_разочарована.png">
+<img onclick="copyToClipboard('киса.обнимает.png')" src="src\киса\обнимает.png">
+<img onclick="copyToClipboard('киса.оглянулась.png')" src="src\киса\оглянулась.png">
+<img onclick="copyToClipboard('киса.одарена.png')" src="src\киса\одарена.png">
+<img onclick="copyToClipboard('киса.одумалась.png')" src="src\киса\одумалась.png">
+<img onclick="copyToClipboard('киса.ожидает_конец.png')" src="src\киса\ожидает_конец.png">
+<img onclick="copyToClipboard('киса.окружена.png')" src="src\киса\окружена.png">
+<img onclick="copyToClipboard('киса.онигири.png')" src="src\киса\онигири.png">
+<img onclick="copyToClipboard('киса.опечалена.png')" src="src\киса\опечалена.png">
+<img onclick="copyToClipboard('киса.отвернулась.png')" src="src\киса\отвернулась.png">
+<img onclick="copyToClipboard('киса.откликнулась.png')" src="src\киса\откликнулась.png">
+<img onclick="copyToClipboard('киса.отреагировала.png')" src="src\киса\отреагировала.png">
+<img onclick="copyToClipboard('киса.очень_близко.png')" src="src\киса\очень_близко.png">
+<img onclick="copyToClipboard('киса.ошарашена.png')" src="src\киса\ошарашена.png">
+<img onclick="copyToClipboard('киса.пакетик.png')" src="src\киса\пакетик.png">
+<img onclick="copyToClipboard('киса.панда.png')" src="src\киса\панда.png">
+<img onclick="copyToClipboard('киса.паникует.png')" src="src\киса\паникует.png">
+<img onclick="copyToClipboard('киса.перестань.png')" src="src\киса\перестань.png">
+<img onclick="copyToClipboard('киса.плачет.png')" src="src\киса\плачет.png">
+<img onclick="copyToClipboard('киса.пончик.png')" src="src\киса\пончик.png">
+<img onclick="copyToClipboard('киса.приветик.png')" src="src\киса\приветик.png">
+<img onclick="copyToClipboard('киса.просит.png')" src="src\киса\просит.png">
+<img onclick="copyToClipboard('киса.пытается_понять.png')" src="src\киса\пытается_понять.png">
+<img onclick="copyToClipboard('киса.пьет_молочко.png')" src="src\киса\пьет_молочко.png">
+<img onclick="copyToClipboard('киса.рада.png')" src="src\киса\рада.png">
+<img onclick="copyToClipboard('киса.радостно_смотрит_вверх.png')" src="src\киса\радостно_смотрит_вверх.png">
+<img onclick="copyToClipboard('киса.радуется.png')" src="src\киса\радуется.png">
+<img onclick="copyToClipboard('киса.ревет.png')" src="src\киса\ревет.png">
+<img onclick="copyToClipboard('киса.с_плюшевым_котом.png')" src="src\киса\с_плюшевым_котом.png">
+<img onclick="copyToClipboard('киса.свечусь_от_счастья.png')" src="src\киса\свечусь_от_счастья.png">
+<img onclick="copyToClipboard('киса.сердечко.png')" src="src\киса\сердечко.png">
+<img onclick="copyToClipboard('киса.сидя_ждёт.png')" src="src\киса\сидя_ждёт.png">
+<img onclick="copyToClipboard('киса.скейт.png')" src="src\киса\скейт.png">
+<img onclick="copyToClipboard('киса.слушает.png')" src="src\киса\слушает.png">
+<img onclick="copyToClipboard('киса.смеётся_лежа.png')" src="src\киса\смеётся_лежа.png">
+<img onclick="copyToClipboard('киса.смирись_детка.png')" src="src\киса\смирись_детка.png">
+<img onclick="copyToClipboard('киса.смотрит.png')" src="src\киса\смотрит.png">
+<img onclick="copyToClipboard('киса.смотрит_в_даль.png')" src="src\киса\смотрит_в_даль.png">
+<img onclick="copyToClipboard('киса.смотрит_вверх.png')" src="src\киса\смотрит_вверх.png">
+<img onclick="copyToClipboard('киса.смотрит_наклонившись.png')" src="src\киса\смотрит_наклонившись.png">
+<img onclick="copyToClipboard('киса.смущается.png')" src="src\киса\смущается.png">
+<img onclick="copyToClipboard('киса.смущенно_ждет.png')" src="src\киса\смущенно_ждет.png">
+<img onclick="copyToClipboard('киса.смущенно_не_понимает.png')" src="src\киса\смущенно_не_понимает.png">
+<img onclick="copyToClipboard('киса.сочувствует.png')" src="src\киса\сочувствует.png">
+<img onclick="copyToClipboard('киса.спит.png')" src="src\киса\спит.png">
+<img onclick="copyToClipboard('киса.так_близко.png')" src="src\киса\так_близко.png">
+<img onclick="copyToClipboard('киса.тонет_в_любви.png')" src="src\киса\тонет_в_любви.png">
+<img onclick="copyToClipboard('киса.умиляется.png')" src="src\киса\умиляется.png">
+<img onclick="copyToClipboard('киса.уснула.png')" src="src\киса\уснула.png">
+<img onclick="copyToClipboard('киса.уходит_в_ночь.png')" src="src\киса\уходит_в_ночь.png">
+<img onclick="copyToClipboard('киса.хвалит.png')" src="src\киса\хвалит.png">
+<img onclick="copyToClipboard('киса.хвостик.png')" src="src\киса\хвостик.png">
+<img onclick="copyToClipboard('киса.что_же_делать.png')" src="src\киса\что_же_делать.png">
+</div>
+</details>
+<details open> <summary>райн </summary>
+<div>
+<img onclick="copyToClipboard('райн.беда.png')" src="src\райн\беда.png">
+<img onclick="copyToClipboard('райн.беззаботен.png')" src="src\райн\беззаботен.png">
+<img onclick="copyToClipboard('райн.беспомощен.png')" src="src\райн\беспомощен.png">
+<img onclick="copyToClipboard('райн.геро_хех.png')" src="src\райн\геро_хех.png">
+<img onclick="copyToClipboard('райн.доволен.png')" src="src\райн\доволен.png">
+<img onclick="copyToClipboard('райн.задумалась.png')" src="src\райн\задумалась.png">
+<img onclick="copyToClipboard('райн.залипаю.png')" src="src\райн\залипаю.png">
+<img onclick="copyToClipboard('райн.извращенец.png')" src="src\райн\извращенец.png">
+<img onclick="copyToClipboard('райн.изгонение_зла.png')" src="src\райн\изгонение_зла.png">
+<img onclick="copyToClipboard('райн.кушать_подано.png')" src="src\райн\кушать_подано.png">
+<img onclick="copyToClipboard('райн.лесная_упа.png')" src="src\райн\лесная_упа.png">
+<img onclick="copyToClipboard('райн.люблю.png')" src="src\райн\люблю.png">
+<img onclick="copyToClipboard('райн.на_месте.png')" src="src\райн\на_месте.png">
+<img onclick="copyToClipboard('райн.нямка.png')" src="src\райн\нямка.png">
+<img onclick="copyToClipboard('райн.окей.png')" src="src\райн\окей.png">
+<img onclick="copyToClipboard('райн.отдыхаем.png')" src="src\райн\отдыхаем.png">
+<img onclick="copyToClipboard('райн.палево.png')" src="src\райн\палево.png">
+<img onclick="copyToClipboard('райн.паника.png')" src="src\райн\паника.png">
+<img onclick="copyToClipboard('райн.пожалуйста.png')" src="src\райн\пожалуйста.png">
+<img onclick="copyToClipboard('райн.поздравляю.png')" src="src\райн\поздравляю.png">
+<img onclick="copyToClipboard('райн.пока.png')" src="src\райн\пока.png">
+<img onclick="copyToClipboard('райн.попоболь.png')" src="src\райн\попоболь.png">
+<img onclick="copyToClipboard('райн.пощади.png')" src="src\райн\пощади.png">
+<img onclick="copyToClipboard('райн.пью_кофе.png')" src="src\райн\пью_кофе.png">
+<img onclick="copyToClipboard('райн.рад_видеть.png')" src="src\райн\рад_видеть.png">
+<img onclick="copyToClipboard('райн.серьезно.png')" src="src\райн\серьезно.png">
+<img onclick="copyToClipboard('райн.сожалею.png')" src="src\райн\сожалею.png">
+<img onclick="copyToClipboard('райн.сплю.png')" src="src\райн\сплю.png">
+<img onclick="copyToClipboard('райн.спокойной_ночи.png')" src="src\райн\спокойной_ночи.png">
+<img onclick="copyToClipboard('райн.ты_в_порядке.png')" src="src\райн\ты_в_порядке.png">
+<img onclick="copyToClipboard('райн.удачи.png')" src="src\райн\удачи.png">
+<img onclick="copyToClipboard('райн.удивление.png')" src="src\райн\удивление.png">
+<img onclick="copyToClipboard('райн.уже_в_пути.png')" src="src\райн\уже_в_пути.png">
+<img onclick="copyToClipboard('райн.упа_и_пупа.png')" src="src\райн\упа_и_пупа.png">
+<img onclick="copyToClipboard('райн.утречко.png')" src="src\райн\утречко.png">
+<img onclick="copyToClipboard('райн.ух.png')" src="src\райн\ух.png">
+<img onclick="copyToClipboard('райн.чего.png')" src="src\райн\чего.png">
+<img onclick="copyToClipboard('райн.я_отказываюсь.png')" src="src\райн\я_отказываюсь.png">
+<img onclick="copyToClipboard('райн.я_рада_за_тебя.png')" src="src\райн\я_рада_за_тебя.png">
+<img onclick="copyToClipboard('райн.я_сделаю_это.png')" src="src\райн\я_сделаю_это.png">
+</div>
+</details>
+<details open> <summary>треш </summary>
+<div>
+<img onclick="copyToClipboard('треш.azuki.png')" src="src\треш\azuki.png">
+<img onclick="copyToClipboard('треш.blessrng.png')" src="src\треш\blessrng.png">
+<img onclick="copyToClipboard('треш.bush.png')" src="src\треш\bush.png">
+<img onclick="copyToClipboard('треш.chilirage.png')" src="src\треш\chilirage.png">
+<img onclick="copyToClipboard('треш.chocola.png')" src="src\треш\chocola.png">
+<img onclick="copyToClipboard('треш.chokola.png')" src="src\треш\chokola.png">
+<img onclick="copyToClipboard('треш.cinnamon.png')" src="src\треш\cinnamon.png">
+<img onclick="copyToClipboard('треш.coconut.png')" src="src\треш\coconut.png">
+<img onclick="copyToClipboard('треш.coolstorybob.png')" src="src\треш\coolstorybob.png">
+<img onclick="copyToClipboard('треш.crybaby.png')" src="src\треш\crybaby.png">
+<img onclick="copyToClipboard('треш.deal.png')" src="src\треш\deal.png">
+<img onclick="copyToClipboard('треш.dolph.png')" src="src\треш\dolph.png">
+<img onclick="copyToClipboard('треш.feellove.png')" src="src\треш\feellove.png">
+<img onclick="copyToClipboard('треш.gasm.png')" src="src\треш\gasm.png">
+<img onclick="copyToClipboard('треш.happy.png')" src="src\треш\happy.png">
+<img onclick="copyToClipboard('треш.hmm.png')" src="src\треш\hmm.png">
+<img onclick="copyToClipboard('треш.hulichai.png')" src="src\треш\hulichai.png">
+<img onclick="copyToClipboard('треш.kappa.png')" src="src\треш\kappa.png">
+<img onclick="copyToClipboard('треш.kappapride.png')" src="src\треш\kappapride.png">
+<img onclick="copyToClipboard('треш.kreygasm.png')" src="src\треш\kreygasm.png">
+<img onclick="copyToClipboard('треш.kurisumirk.png')" src="src\треш\kurisumirk.png">
+<img onclick="copyToClipboard('треш.lazy.png')" src="src\треш\lazy.png">
+<img onclick="copyToClipboard('треш.left.png')" src="src\треш\left.png">
+<img onclick="copyToClipboard('треш.lenny.png')" src="src\треш\lenny.png">
+<img onclick="copyToClipboard('треш.leskismirk.png')" src="src\треш\leskismirk.png">
+<img onclick="copyToClipboard('треш.lul.png')" src="src\треш\lul.png">
+<img onclick="copyToClipboard('треш.maple.png')" src="src\треш\maple.png">
+<img onclick="copyToClipboard('треш.megumin.png')" src="src\треш\megumin.png">
+<img onclick="copyToClipboard('треш.minazuki.png')" src="src\треш\minazuki.png">
+<img onclick="copyToClipboard('треш.mrdestructoid.png')" src="src\треш\mrdestructoid.png">
+<img onclick="copyToClipboard('треш.notlikethit.png')" src="src\треш\notlikethit.png">
+<img onclick="copyToClipboard('треш.pogchamp.png')" src="src\треш\pogchamp.png">
+<img onclick="copyToClipboard('треш.remlove.png')" src="src\треш\remlove.png">
+<img onclick="copyToClipboard('треш.right.png')" src="src\треш\right.png">
+<img onclick="copyToClipboard('треш.rkn.png')" src="src\треш\rkn.png">
+<img onclick="copyToClipboard('треш.roflyanmiku.png')" src="src\треш\roflyanmiku.png">
+<img onclick="copyToClipboard('треш.roflynbulduga.png')" src="src\треш\roflynbulduga.png">
+<img onclick="copyToClipboard('треш.roflynebalo.png')" src="src\треш\roflynebalo.png">
+<img onclick="copyToClipboard('треш.roflynpukan.png')" src="src\треш\roflynpukan.png">
+<img onclick="copyToClipboard('треш.shyness.png')" src="src\треш\shyness.png">
+<img onclick="copyToClipboard('треш.smoke.png')" src="src\треш\smoke.png">
+<img onclick="copyToClipboard('треш.smorg.png')" src="src\треш\smorg.png">
+<img onclick="copyToClipboard('треш.ss.png')" src="src\треш\ss.png">
+<img onclick="copyToClipboard('треш.swag.png')" src="src\треш\swag.png">
+<img onclick="copyToClipboard('треш.tpfufun.png')" src="src\треш\tpfufun.png">
+<img onclick="copyToClipboard('треш.trapli.png')" src="src\треш\trapli.png">
+<img onclick="copyToClipboard('треш.vanila.png')" src="src\треш\vanila.png">
+<img onclick="copyToClipboard('треш.whyme.png')" src="src\треш\whyme.png">
+</div>
+</details>
+<details open> <summary>фате </summary>
+<div>
+<img onclick="copyToClipboard('фате.за_грааль.png')" src="src\фате\за_грааль.png">
+<img onclick="copyToClipboard('фате.здрасте.png')" src="src\фате\здрасте.png">
+<img onclick="copyToClipboard('фате.несправедливо.png')" src="src\фате\несправедливо.png">
+<img onclick="copyToClipboard('фате.по_башке.png')" src="src\фате\по_башке.png">
+<img onclick="copyToClipboard('фате.справедливо.png')" src="src\фате\справедливо.png">
+</div>
+</details>
+
+
+</body>
+
+<span id="obj">
+    Скопировано!<b id="code"></b>
+</span>
