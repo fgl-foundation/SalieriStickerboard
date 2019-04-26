@@ -11,8 +11,8 @@ img{
 }
 img:hover{
     background-color: lightgray;
-    max-width: 180px;
-    max-height: 180px;
+    max-width: 130px;
+    max-height: 130px;
 }
 summary{
     cursor: pointer;
