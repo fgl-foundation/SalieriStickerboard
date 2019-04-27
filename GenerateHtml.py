@@ -13,7 +13,7 @@ def GenHtmlStick(dir=".\\"):
                                 code=dir+'.'+i
                         else:
                                 code=i
-                        groups[dir].append('<div class=block>\n<span>:'+'.'.join(code.split('.')[0:-1:1])+':</span>\n<img onclick="copyToClipboard(\''+code+'\')" src=\"src\\'+dir+"\\"+i+'\">\n<a href="http://sg.salieri.me/assets/stickers/'+dir+'/'+i+'">Источник</a></div>\n')
+                        groups[dir].append('<div class=block>\n<span>:'+'.'.join(code.split('.')[0:-1:1])+':</span>\n<img onclick="copyToClipboardСode(\''+code+'\')" src=\"src\\'+dir+"\\"+i+'\">\n<a onclick=copyToClipboard("http://sg.salieri.me/assets/stickers/'+dir+'/'+i+'")>Copy url</a></div>\n')
                 else:
                         groups[i]=[]
                         GenHtmlStick(i)

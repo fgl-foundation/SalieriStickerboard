@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="style.css">
 
 <script>
-    function copyToClipboard(text){
+    function copyToClipboardСode(text){
         var copytext = document.createElement('input')
         text=text.substring(0,text.lastIndexOf('.'))
         var codex=":"+text+":";
@@ -16,6 +16,17 @@
         code.innerHTML=codex
         obj.style.opacity="1"
         setTimeout(function(){obj.style.opacity="0"},700)
+    }
+    function copyToClipboard(text){
+        var copytext = document.createElement('input')
+        copytext.value = text;
+        document.body.appendChild(copytext)
+        copytext.select()
+        document.execCommand('copy')
+        document.body.removeChild(copytext)
+        code1.innerHTML=text
+        obj2.style.opacity="1"
+        setTimeout(function(){obj2.style.opacity="0"},700)
     }
 </script>
 

@@ -11,13 +11,8 @@ img{
 }
 img:hover{
     background-color: lightgray;
-<<<<<<< HEAD
     max-width: 170px;
     max-height: 150px;
-=======
-    max-width: 130px;
-    max-height: 130px;
->>>>>>> b52ac065ce7165ff2eee4dee39ce137991882bca
 }
 summary{
     cursor: pointer;
@@ -77,7 +72,16 @@ details>div{
     font-size: 20px;
     opacity: 0;
 }
-<<<<<<< HEAD
+#obj2{
+    position: fixed;
+    text-align: center;
+    background: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    opacity: 0;
+}
 
 @media (max-width: 1024px){
     .block>a{
@@ -96,5 +100,3 @@ details>div{
         margin-bottom: 20px;
     }
 }
-=======
->>>>>>> b52ac065ce7165ff2eee4dee39ce137991882bca
