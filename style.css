@@ -36,8 +36,11 @@ details>div{
     align-items: center;
 }
 .block>span{
+    max-width:170px;
+    word-break: break-all;
     font-size: 20px;
     font-weight: bold;
+    text-align:center;
 }
 .block>a{
     font-size: 20px;
